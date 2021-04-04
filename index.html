@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Program za obavljanje osnovnih aritmetičkih operacija</title>
+</head>
+    
+    <script>
+
+        var x = prompt("Please enter number A");
+
+        var operation = prompt("Pleas enter a operation +, -, *, /.");
+        
+        var sum = null;
+        
+            switch (operation){
+            case "+":
+        var y = prompt ("Please enter a number B");
+            var sum = parseInt(x) + parseInt(y);
+            break;
+
+            case "-":
+        var y = prompt ("Please enter a number B");
+            var sum = parseInt(x) - parseInt(y);
+            break;
+
+            case "*":
+        var y = prompt ("Please enter a number B");
+            var sum = parseInt(x) * parseInt(y);
+            break;
+
+            case "/":
+        var y = prompt ("Please enter a number B");
+            var sum = parseInt(x) / parseInt(y);
+            break;
+
+            default:
+            alert ("unknow operation");
+        };
+        
+        alert (sum);
+        
+        
+     </script>
+
+</body>
+
+</html>
